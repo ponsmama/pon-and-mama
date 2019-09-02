@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>puntanpon</title>
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <!--Jquery core-->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <!--Jquery UI-->
+    <script
+        src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+        crossorigin="anonymous"></script>
+    <!--fontAwsom-->
+    <script src="https://kit.fontawesome.com/ac78c75a7e.js"></script>    
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+    <!--モーダル-->
+    <div id="login-modal-wrapper">
+            <div class="modal-container">
+            <span class="close-modal">x-とじる</span>    
+            <h3>あそんでいってね</h3>
+            <form class="form-box">
+                <div class=name-input>
+                    <p>お名前をどうぞ</p>
+                    <input id="name" type="text">
+                </div>
+                <div class=selecter>
+                    <p>どっちがすきですか？</p>
+                    <select id="choice">
+                            <option value="いぬ">いぬ</option>
+                            <option value="ねこ">ねこ</option>
+                    </select>
+                    
+                </div>
+                <button type="submit" id="submit-btn">送信</button>
+            </form>
+            <!--結果-->
+                <div class="output">
+                        <span id="output">結果</span>
+                </div>
+                
+            </div>
+        </div>         
+<!-- grid-container-->    
+<div class="grid-container">
+    <!--logo-->
+   <div class="logo"></div>
+    <!--aside-->
+   <div class="aside" ></div>
+        
+            <div id="aside-items" class="items">
+                <a class="btn-twitter" href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                <a class="btn-blogger" href="https://hakkeinozomi.blogspot.com/"><i class="fab fa-blogger"></i></a>
+            </div>
+            
+    <!--red-ball-->
+   <div class= "red-ball" id="red-ball"></div>   
+<!--main-wrap-->    
+<div class="main-wrapper">
+   <div class="main1">
+        <div class="comment1">
+            <P>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</P>
+        </div>
+   </div>
+   <div class="main2">
+       <div class="main-text">
+            <h1>ワンコと過ごす</br>優雅なお散歩タイム</h1>
+       </div>
+            
+    </div>
+   <div class="main3">
+        <div class="comment2">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </div>
+    </div>
+</div> 
+<!--navi-->   
+    <div class="navi"></div>
+
+   <!--login-->
+   <div class="login" id=login></div>
+</div>        
+     <!--footer-->
+<div class="footer-logo">
+         <img class="logo-img" src= "ponpon.png">
+</div> 
+<div class= footer-wrapper>
+     <div class= "footer-left">
+         <div class= "news">
+            <h3>NEWS</h3> 
+            <p>◎月◎日ママ観察日記を更新しました。</p>
+         </div>   
+         <div class= "copyright">
+            <ul>
+                <li>Puntunponプロダクション</li>
+                <li>ポンポコポンポン</li>
+                <li>@2019 ponmama</li>
+            </ul>
+         </div>   
+     </div>
+     <div class= "footer-right">
+        <div class= "faq">
+            <h2>FAQ</h2>
+            <ul>
+                <li class="list-item">
+                    <h4 class="question">Who am I?</h4>
+                    <span>+</span>
+                    <div class="answer">
+                        <p>通りすがりの主婦とワンコです。</p>
+                    </div>
+                </li> 
+                <li class="list-item">
+                    <h4 class="question">Who is Pon?</h4>
+                    <span>+</span>
+                    <div class="answer">
+                        <p>オレンジでふわふわなポメラニアンです。今年で9歳です。</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+     </div>   
+</div>
+ <script src="script.js"></script> 
+</body>
+</html>
