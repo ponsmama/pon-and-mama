@@ -1,30 +1,207 @@
-/* CSS RESET*/
-html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-weight: normal;
-    font-size: 100%;
+/*
+002
+html5doctor.com Reset Stylesheet
+003
+v1.6.1
+004
+Last Updated: 2010-09-17
+005
+Author: Richard Clark - http://richclarkdesign.com
+006
+Twitter: @rich_clark
+007
+*/
+008
+ 
+009
+html, body, div, span, object, iframe,
+010
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+011
+abbr, address, cite, code,
+012
+del, dfn, em, img, ins, kbd, q, samp,
+013
+small, strong, sub, sup, var,
+014
+b, i,
+015
+dl, dt, dd, ol, ul, li,
+016
+fieldset, form, label, legend,
+017
+table, caption, tbody, tfoot, thead, tr, th, td,
+018
+article, aside, canvas, details, figcaption, figure,
+019
+footer, header, hgroup, menu, nav, section, summary,
+020
+time, mark, audio, video {
+021
+    margin:0;
+022
+    padding:0;
+023
+    border:0;
+024
+    outline:0;
+025
+    font-size:100%;
+026
     vertical-align:baseline;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  article, header, main, footer, aside, figure, figcaption, nav, section { 
+027
+    background:transparent;
+028
+}
+029
+ 
+030
+body {
+031
+    line-height:1;
+032
+}
+033
+ 
+034
+article,aside,details,figcaption,figure,
+035
+footer,header,hgroup,menu,nav,section {
+036
     display:block;
-  }
-  body {
-    width: 100%;
-    height: 100vh;
-    line-height: 1;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    background-color: white;
-  }
-  ol, ul {
-    list-style: none;
-    list-style-type: none;
-  }
+037
+}
+038
+ 
+039
+nav ul {
+040
+    list-style:none;
+041
+}
+042
+ 
+043
+blockquote, q {
+044
+    quotes:none;
+045
+}
+046
+ 
+047
+blockquote:before, blockquote:after,
+048
+q:before, q:after {
+049
+    content:'';
+050
+    content:none;
+051
+}
+052
+ 
+053
+a {
+054
+    margin:0;
+055
+    padding:0;
+056
+    font-size:100%;
+057
+    vertical-align:baseline;
+058
+    background:transparent;
+059
+}
+060
+ 
+061
+/* change colours to suit your needs */
+062
+ins {
+063
+    background-color:#ff9;
+064
+    color:#000;
+065
+    text-decoration:none;
+066
+}
+067
+ 
+068
+/* change colours to suit your needs */
+069
+mark {
+070
+    background-color:#ff9;
+071
+    color:#000;
+072
+    font-style:italic;
+073
+    font-weight:bold;
+074
+}
+075
+ 
+076
+del {
+077
+    text-decoration: line-through;
+078
+}
+079
+ 
+080
+abbr[title], dfn[title] {
+081
+    border-bottom:1px dotted;
+082
+    cursor:help;
+083
+}
+084
+ 
+085
+table {
+086
+    border-collapse:collapse;
+087
+    border-spacing:0;
+088
+}
+089
+ 
+090
+/* change border colour to suit your needs */
+091
+hr {
+092
+    display:block;
+093
+    height:1px;
+094
+    border:0;
+095
+    border-top:1px solid #cccccc;
+096
+    margin:1em 0;
+097
+    padding:0;
+098
+}
+099
+ 
+100
+input, select {
+101
+    vertical-align:middle;
+102
+}
+
 /* CSS RESET　ここまでー*/
 
 /* CSS font family*/
