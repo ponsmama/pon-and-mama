@@ -18,8 +18,7 @@ html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table,
     height: 100vh;
     line-height: 1;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    background-color: white;
+    -webkit-text-size-adjust: 100%
   }
   ol, ul {
     list-style: none;
