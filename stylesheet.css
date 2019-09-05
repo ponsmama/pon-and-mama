@@ -1,4 +1,4 @@
-/* CSS reset*/
+/* CSS RESET*/
 html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td {
     margin: 0;
     padding: 0;
@@ -18,7 +18,8 @@ html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table,
     height: 100vh;
     line-height: 1;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    background-color: white;
   }
   ol, ul {
     list-style: none;
@@ -45,19 +46,19 @@ body{
 }
   .modal-container{
     position: absolute;
-    top: 20%;
-    left: 30%;
+    top: 10%;
+    left: 15%;
     background-color: #f1f8d6;
     padding: 3rem 0 4rem;
-    border-radius: 10px;
-    width: 25em;
+    border-radius: 5%;
+    width: 60%;
     height: auto;
   }
   .modal-container >h3{
     font-size: 1.3em;
     text-align: center;
     background-color: bisque;
-    width:18em;
+    width:58%;
     padding:1em 1em;
     margin: 1rem auto;
   }
@@ -72,7 +73,7 @@ body{
   .form-box{
     text-align: center;
     background-color: pink;
-    width:17rem;
+    width:55%;
     margin: auto;
   }
   .name-input{
@@ -85,7 +86,7 @@ body{
     margin:1rem 1rem;
   }
   .output{
-    width:16rem;
+    width:55%;
     padding:1rem 1rem;
     text-align: center;
     border: solid 1px rgb(98, 171, 255);
