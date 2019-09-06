@@ -29,7 +29,7 @@ $(function(){
 //フォームを作る
     $('#submit-btn').click(function(){
         var name= $('#name').val();
-        var choice= $('#choice').val();
+        var choice= $('#choice option:selected').text();
         $('#output').text(name +'がすきなのは、'+ choice +'ですね。');
         return false;
     });
