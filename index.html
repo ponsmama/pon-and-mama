@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>puntanpon</title>
     <!--google font-->
     <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
@@ -27,17 +27,17 @@
             <form class="form-box">
                 <div class=name-input>
                     <p>お名前をどうぞ</p>
-                    <input id="name" type="text">
+                    <input id="name"　size="15" maxlength="20" placeholder="名前を入力してね">
                 </div>
                 <div class=selecter>
                     <p>どっちがすきですか？</p>
-                    <select id="choice">
-                            <option value="いぬ">いぬ</option>
-                            <option value="ねこ">ねこ</option>
+                    <select id="choice" tabindex="1">
+                            <option value="dog">いぬ</option>
+                            <option value="cat">ねこ</option>
                     </select>
                     
                 </div>
-                <button type="submit" id="submit-btn">送信</button>
+                <button type="submit" id="submit-btn" tabindex="2">送信</button>
             </form>
             <!--結果-->
                 <div class="output">
