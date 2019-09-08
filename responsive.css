@@ -1,0 +1,49 @@
+/*grid responsive*/
+@media screen and (max-width:500px){
+    .grid-container{
+     display: grid;
+     grid-template-columns: 1fr 2fr 0.8fr 0.5fr 0.5fr;
+     grid-template-rows: 2.5em 2.5em 2.5em 0.5fr 2fr;
+    }
+     .logo, .login{
+       width:5em;
+       height: 5em;
+     }
+     .red-ball{
+       width:1em;
+       height: 1em;
+     }
+     .aside{
+       height: 2em;
+     }
+     .main-wrapper{
+       flex-direction: column;
+       background-size: 80%;
+     }
+      .main1{
+        flex-basis: 25%;
+        order: 2;
+        margin:1rem 0;
+        text-align: center;
+      }
+      .main2{
+        flex: 2;
+        order: 1;
+        text-align: center;
+      }
+      .main-text{
+        height: 20rem;
+      }
+      .main3{
+        flex: 25%;
+        order: 3;
+        margin:1rem 0;
+        text-align: center;
+      }
+     .main-text h1{
+       font-size: 2rem;
+     }
+     .logo-img{
+       height: 10em;
+     }
+   }
