@@ -35,3 +35,11 @@ $(function(){
     });
 
 });    
+
+$(function(){
+    //redball
+     $('#red-ball').click(function(){
+        $(this).effect('shake',{mode:'effect', direction: 'right', distance: 50},700);
+    });
+    
+});
